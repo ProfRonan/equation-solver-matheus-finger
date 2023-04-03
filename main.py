@@ -29,5 +29,5 @@ elif grau == 2:
             print('A equação possui duas raízes reais')
             raiz1 = ((-b) + (delta ^ 0.5)) / (2 * a)
             raiz2 = ((-b) - (delta ^ 0.5)) / (2 * a)
-            print(raiz2)
-            print(raiz1)
+            print(f'{raiz2:.2f}')
+            print(f'{raiz1:.2f}')

@@ -18,7 +18,7 @@ elif grau == 2:
     else:
         b = float(input())
         c = float(input())
-        delta = (b ^ 2.0) - 4 * a * c
+        delta = (b ** 2) - 4 * a * c
         if delta < 0:
             print('A equação não possui raízes reais')
         elif delta == 0:
